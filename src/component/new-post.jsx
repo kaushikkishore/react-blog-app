@@ -6,7 +6,7 @@ class NewPost extends Component {
       <React.Fragment>
         <form className="border m-2 p-2" onSubmit={this.props.onSubmitPost}>
           <div className="form-group">
-            <label for="name">Name</label>
+            <label htmlFor="name">Name</label>
             <input
               type="text"
               placeholder="Name"
@@ -15,7 +15,7 @@ class NewPost extends Component {
             />
           </div>
           <div className="form-group">
-            <label for="blogPostContent">Content</label>
+            <label htmlFor="blogPostContent">Content</label>
             <textarea
               rows="5"
               placeholder="Your blog post content"

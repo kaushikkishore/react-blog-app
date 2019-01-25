@@ -1,11 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import Post from "./component/post";
-import NewPost from "./component/new-post";
 import "bootstrap/dist/css/bootstrap.min.css";
+// import { Router, Route, Link, browserHistory, IndexRoute } from "react-router";
 
 ReactDOM.render(<Post />, document.getElementById("root"));
 
